@@ -1,27 +1,19 @@
 {
-    "manifest_version": 2,
-    "name": "PhoneForward",
-    "version": "0.1",
-  
-    "description": "Send a highlighted phone number to your Android device.",
-    "homepage_url": "https://github.com/mixtapeo/firefox-Phone",
-  
-    "icons": {
-      "48": "icon48.png" 
-    },
-  
-    "content_scripts": [
-      {
-        "matches": ["*://*/*"],
-        "js": ["main.js"]
-      }
-      
-    ],
-
-    "browser_action": {
-        "default_icon": "icon48.png",
-        "default_title": "PhoneForward!",
-        "default_popup": "popup.html"
-      }
+  "manifest_version": 2,
+  "name": "Send Phone Number",
+  "version": "1.0",
+  "description": "Send highlighted phone number to Android device over WiFi",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icons/icon48.png"
+  }
 }
-  
