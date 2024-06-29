@@ -4,6 +4,4 @@ Instructions:
     terminal: web-ext run --no-reload
     run flutter app
     right click on number on firefox, send to android app.
-    recieved number on phone.
-
-Need to work on dialing the number on device, looking into flask + python.
+    recieved number on phone, went to dialer.
