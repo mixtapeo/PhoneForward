@@ -5,3 +5,5 @@
     run flutter app</br>
     right click on number on firefox, send to android app.</br>
     recieved number on phone, went to dialer.</br>
+</br>
+For now, must specify device local IP in main.dart under lib (flutterApp).
