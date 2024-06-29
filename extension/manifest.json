@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Send Phone Number to Android",
+  "version": "1.0",  
+  "description": "Send highlighted phone number to Android device over WiFi",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
