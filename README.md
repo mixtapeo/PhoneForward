@@ -3,7 +3,7 @@
  Made using Android Studio, Android app making Flutter, Firefox extension using HTML, CSS and JS.
  
 # Program path:
-   On Firefox terminal run: ```web-ext run --no-reload```</br>
+   Open project folder at root, in VSCode run: ```web-ext run --no-reload```</br>
    Install and open flutter app on your phone.</br>
    Right click on number on firefox, send to android app.</br>
    Recieved number on phone, went to dialer.</br>
